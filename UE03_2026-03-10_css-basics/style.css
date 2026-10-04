@@ -1,0 +1,31 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #f4f4f9;
+  color: #333333;
+  margin: 0;
+  padding: 1.5rem;
+}
+
+.header-bg {
+  background-color: rgba(40, 116, 166, 0.2);
+  color: #1b4f72;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.karte {
+  width: 20rem;
+  padding: 1rem;
+  border: 2px solid #2874a6;
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  margin-bottom: 1.5rem;
+}
