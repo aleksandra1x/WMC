@@ -1,31 +1,62 @@
-
-*,
-*::before,
-*::after {
+* {
   box-sizing: border-box;
 }
 
 body {
-  font-family: sans-serif;
   background-color: #f4f4f9;
   color: #333333;
+  font-family: Arial, sans-serif;
   margin: 0;
-  padding: 1.5rem;
+  padding: 2rem;
 }
 
 .header-bg {
-  background-color: rgba(40, 116, 166, 0.2);
-  color: #1b4f72;
-  padding: 1rem;
-  border-radius: 0.5rem;
+  background-color: rgba(40, 90, 180, 0.25);
+  color: #111111;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
   margin-bottom: 2rem;
 }
 
 .karte {
   width: 20rem;
-  padding: 1rem;
-  border: 2px solid #2874a6;
+  padding: 1.5rem;
   background-color: #ffffff;
-  border-radius: 0.5rem;
+  border: 2px solid #dddddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+section {
   margin-bottom: 1.5rem;
+}
+
+h2 {
+  color: #2c3e50;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+img {
+  margin-top: 0.5rem;
+  border-radius: 4px;
+}
+
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.5rem 0;
+  display: flex;
+  gap: 1rem;
+}
+
+nav a {
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
 }

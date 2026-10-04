@@ -1,21 +1,43 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Über mich-CSS-Basics</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Über mich - Aleksandra</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <h1 class="header-bg">Willkommen auf meiner Seite</h1>
+    <header>
+        <h1 class="header-bg">Über mich</h1>
+        <nav>
+            <ul>
+                <li><a href="#ueber-mich">Steckbrief</a></li>
+                <li><a href="#hobbys">Hobbys</a></li>
+                <li><a href="#spieleentwickler">Spieleentwickler</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <main>
-    <section class="karte">
-      <h2>Über mich</h2>
-      <p>Das ist eine Beispiel-Karte mit Kartendesign, Padding und abgerundeten Ecken.</p>
-    </section>
-  </main>
+    <main class="karte">
+        <article id="ueber-mich">
+            <h2>Wer ich bin</h2>
+            <p>Hallo! Ich heiße Aleksandra und besuche derzeit die Klasse 3CAIF.</p>
+            <p>In der Schule lernen wir gerade die Grundlagen der Webentwicklung mit HTML.</p>
+            <p>Ich finde es spannend zu lernen, wie moderne Webseiten aufgebaut sind.</p>
+        </article>
+
+        <aside id="hobbys">
+            <h2>Meine Hobbys</h2>
+            <p>In meiner Freizeit höre ich gerne Musik, backe, koche, spiele gerne Videospiele und unternehme etwas mit Freunden.</p>
+        </aside>
+
+        <section id="spieleentwickler">
+            <h2>Spieleentwickler</h2>
+            <p>Einer meiner Lieblings-Entwickler für Videospiele ist Rockstar Games.</p>
+            <img src="logo.png" alt="Das offizielle Logo von Rockstar Games" width="150">
+        </section>
+    </main>
 
 </body>
 </html>
