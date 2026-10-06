@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>uebung</title>
+</head>
+<body>
+    <h1>Kontaktformular</h1>
+
+    <form action ="mailto:GOR250895@spengergasse.at" method="post" enctype="text/plain">
+        <br>
+        <label for ="vorname">Vorname:</label><br>
+        <input type="text" id="vorname" name="vorname"><br>
+
+        <label for ="nachname">Nachname:</label><br>
+        <input type="text" id="nachname" name="nachname"><br>
+        <br>
+
+        <label for ="herr">Herr:</label><br>
+        <input type="radio" id="herr" name="anrede" value="herr"><br>
+
+        <label for ="frau">Frau:</label><br>
+        <input type="radio" id="frau" name="anrede" value="frau"><br>
+
+        <label for ="agb">Ich akzeptiere hiermit die AGB</label><br>
+        <input type="checkbox" id="agb" name="agb" value="ja"><br><br>
+
+
+        <label for ="ausbildung">Ausbildung</label><br>
+        <select id="ausbildung" name="ausbildung" required>
+        <option value="HTL-Informationstechnologie">HTL-Informationstechnologie</option>
+        <option value="HTL-Mechatronik">HTL-Mechatronik</option>
+        <option value="HTL-Elektrotechnik">HTL-Elektrotechnik</option>
+        <option value="sonsiges">sonstiges</option>
+        </select>
+
+        <br>
+        <br>
+        <label for="interessen">Interessen:</label><br>
+        <select id="interessen" name="intessen" multiple size="3">
+        <option value="Design">Design</option>
+        <option value="Webentwicklung">Webentwicklung</option>
+        <option value="Netzwerktechnik">Netzwerktechnik</option>
+        <option value="Datenbank">Datenbank</option>
+        </select>
+
+        <br>
+        <br>
+        <label for ="geburtsdatum">Geburtsdatum:</label><br>
+        <input type="date" id="geburtsdatum" name="geburtsdatum" required><br>
+        
+     
+        <br>
+        <label for="Formular abschicken"></label>
+        <input type="submit"></button> 
+        <br>
+        <label for="Formular zurücksetzen:"></label>
+        <input type="reset"></button>  
+        <br>
+    </form>
+   
+        
+
+    
+</body>
+</html>
