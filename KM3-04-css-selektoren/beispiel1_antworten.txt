@@ -1,0 +1,18 @@
+Das Labor erweitern
+
+1a Verwendete Selektoren
+
+1. .speisekarte thead
+2. .speisekarte tbody tr:nth-child(even)
+3. .speisekarte tbody tr:last-child td:first-child
+
+1b Verwendete Selektoren
+
+2. Schritt: .anleitung li:nth-child(2)
+Vorletzter Schritt: .anleitung li:nth-last-child(2)
+
+1c Erklärung
+
+:has(img) wählt den Kasten aus, der ein Bild enthält.
+:is(img) würde dagegen das Bild selbst auswählen
+und nicht den übergeordneten Kasten.
